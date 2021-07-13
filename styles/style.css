@@ -3,16 +3,18 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  
 }
+
+/* top style start */
+
 .top-container {
   position: relative;
   background-color: #2d25a0;
   width: 100%;
   height: 780px;
 }
-section {
-  display: flex;
-}
+
 .head-title {
   position: absolute;
   color: #ffffff;
@@ -47,3 +49,20 @@ span:hover {
 .head-img:hover {
   transform: rotate(45deg);
 }
+
+/* top style end */
+
+/* article styles start */
+
+.players {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.players-blogs {
+  width: 15%;
+  height: 456px;
+  margin-left: 180px;
+  margin-top: 747px;
+}
+/* article styles end */
