@@ -3,6 +3,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  position: relative;
 }
 
 /* top style start */
@@ -54,24 +55,28 @@ span:hover {
 /* article styles start */
 
 .players {
-  margin-top: 60px;
+    
+  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.blog {
-padding: 15px;
-width: 330px;
-height: 456px;
-left: 180px;
-top: 10px;
-
-
-}
 .players-blogs {
+    
   width: 15%;
-  height: 456px;
   margin-left: 180px;
-  margin-top: 747px;
+  margin-top: 50px;
 }
+img{
+    width: 100%;
+}
+.blog {
+  padding: 10px;
+  width: 330px;
+  height: 456px;
+  left: 180px;
+  top: 10px;
+}
+
+
 
 /* article styles end */
