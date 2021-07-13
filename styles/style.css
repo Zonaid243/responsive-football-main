@@ -3,7 +3,6 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  
 }
 
 /* top style start */
@@ -59,10 +58,20 @@ span:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+.blog {
+padding: 15px;
+width: 330px;
+height: 456px;
+left: 180px;
+top: 10px;
+
+
+}
 .players-blogs {
   width: 15%;
   height: 456px;
   margin-left: 180px;
   margin-top: 747px;
 }
+
 /* article styles end */
