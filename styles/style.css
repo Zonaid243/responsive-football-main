@@ -60,7 +60,7 @@ span:hover {
 }
 .players-blogs {
   width: 15%;
-  margin-left: 180px;
+  margin-left: 150px;
   margin-top: 50px;
 }
 img {
@@ -86,8 +86,8 @@ img {
 }
 /* social-icon  */
 .fa {
-  padding: 10px;
-
+   
+  padding: 40px;
   width: 30px;
   text-align: center;
   text-decoration: none;
