@@ -55,19 +55,16 @@ span:hover {
 /* article styles start */
 
 .players {
-    
-  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 .players-blogs {
-    
   width: 15%;
   margin-left: 180px;
   margin-top: 50px;
 }
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 .blog {
   padding: 10px;
@@ -77,6 +74,39 @@ img{
   top: 10px;
 }
 
-
-
 /* article styles end */
+
+/* footer style start */
+.footer {
+  text-align: center;
+  margin-top: 150px;
+}
+.footer-img {
+  width: 25%;
+}
+/* social-icon  */
+.fa {
+  padding: 10px;
+
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #0e5afd;
+  color: white;
+}
+
+.fa-instagram {
+  color: #fa09aa;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-youtube{
+    color: red;
+}
+
+/* footer style end */
