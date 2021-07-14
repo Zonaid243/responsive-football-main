@@ -96,13 +96,13 @@ img {
   bottom: 130px;
   transition: transform 1s ease-out 0.3s;
 }
-.field:hover .ball{
+.field:hover .ball {
   transform: translate(1300px, -100px);
 }
 .socker-man {
   transition: transform 0.3s ease-in;
 }
-.socker-man{
+.socker-man {
   width: 20%;
   padding: 70px;
 }
@@ -160,5 +160,7 @@ img {
   border-radius: 5px;
   border: 15px;
 }
-
+.i {
+  font-size: 1.5rem;
+}
 /* footer style end */
