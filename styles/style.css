@@ -55,18 +55,15 @@ span:hover {
 
 /* article styles start */
 
-
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 0px;
-  
 }
 .players-blogs {
   width: 15%;
   margin-left: 150px;
   margin-top: 50px;
-  
 }
 img {
   width: 100%;
@@ -81,11 +78,40 @@ img {
   border: 4px solid whitesmoke;
   border-radius: 10px;
   box-shadow: 1px 1px 10px whitesmoke;
-  
-
 }
 
 /* article styles end */
+
+/* animation start */
+.field {
+  border: 1px solid rgb(41, 36, 36);
+}
+.ball {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(39, 132, 238, 0.986);
+  border-radius: 25px;
+  position: relative;
+  left: 465px;
+  bottom: 130px;
+  transition: transform 1s ease-out 0.3s;
+}
+.field:hover .ball{
+  transform: translate(1300px, -100px);
+}
+.socker-man {
+  transition: transform 0.3s ease-in;
+}
+.socker-man{
+  width: 20%;
+  padding: 70px;
+}
+.field:hover .socker-man {
+  transform: rotate(-30deg);
+  transform-origin: top right;
+}
+
+/* animation end */
 
 /* footer style start */
 .footer {
@@ -97,16 +123,13 @@ img {
 }
 /* social-icon  */
 .fa {
-  
   padding: 40px;
   width: 40px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  
 }
 .fa-facebook {
-  
   background: #0e5afd;
   color: white;
   width: 20px;
@@ -116,7 +139,6 @@ img {
 }
 
 .fa-instagram {
-  
   color: #fa09aa;
   width: 40px;
   height: 18px;
