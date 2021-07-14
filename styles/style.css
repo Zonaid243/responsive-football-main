@@ -55,8 +55,7 @@ span:hover {
 
 /* article styles start */
 
-.footer {
-}
+
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
